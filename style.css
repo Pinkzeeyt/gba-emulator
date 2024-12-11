@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+#emulator-container {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+canvas {
+    border: 2px solid #fff;
+    background-color: #000;
+    display: block;
+    margin-bottom: 10px;
+    width: 480px;
+    height: 320px;
+}
+
+input[type="file"] {
+    color: #fff;
+    margin-top: 10px;
+}
+
+#controls {
+    margin-bottom: 20px;
+}
